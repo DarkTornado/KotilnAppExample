@@ -39,7 +39,6 @@ class MainActivity : Activity() {
         setContentView(scroll)
     }
 
-
     fun dip2px(dips: Int): Int {
         return Math.ceil((dips * resources.displayMetrics.density).toDouble()).toInt()
     }
